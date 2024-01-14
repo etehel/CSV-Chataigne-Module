@@ -3,16 +3,13 @@
   "type": "Empty",
   "version": "1.0.0",
   "description": "CSV-Import",
-  "url": "https://github.com/tommag/Sample-Chataigne-module",
-  "downloadURL": "https://github.com/tommag/Sample-Chataigne-module/archive/master.zip",
+  "url": "https://github.com/etehel/CSV-Chataigne-Module",
+  "downloadURL": "https://github.com/etehel/CSV-Chataigne-Module/archive/master.zip",
   "hasInput": false,
   "hasOutput": false,
   "hideDefaultCommands": false,
   "defaults": {
     "autoAdd": false,
-    "oscInput": {
-      "localPort": 9001
-    },
     "Separator": ","
   },
   "parameters": {
