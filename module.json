@@ -1,0 +1,65 @@
+{
+  "name": "CSV-Import",
+  "type": "Empty",
+  "version": "1.0.0",
+  "description": "CSV-Import",
+  "url": "https://github.com/tommag/Sample-Chataigne-module",
+  "downloadURL": "https://github.com/tommag/Sample-Chataigne-module/archive/master.zip",
+  "hasInput": false,
+  "hasOutput": false,
+  "hideDefaultCommands": false,
+  "defaults": {
+    "autoAdd": false,
+    "oscInput": {
+      "localPort": 9001
+    },
+    "Separator": ","
+  },
+  "parameters": {
+    "CSV File:": {
+      "type": "File"
+    },
+    "Separator": {
+      "type": "Enum"
+    },
+    "Load File": {
+      "type": "Trigger"
+    },
+    "nbRows": {
+      "type": "Integer",
+      "readOnly": "true"
+    },
+    "clearDatas": {
+      "type": "Trigger"
+    }
+  },
+  "hideDefaultParameters": [
+    "nbRows"
+  ],
+  "scripts": [
+    "CSV-import.js"
+  ],
+  "values": {
+    "CurrentLine": {
+      "type": "Integer",
+      "min": "1"
+    },
+    "Datas": {
+      "type": "Container"
+    }
+  },
+  "commands": {
+    "Custom command": {
+      "menu": "",
+      "callback": "customCmd",
+      "parameters": {
+        "Value": {
+          "type": "Integer",
+          "min": 0,
+          "max": 100,
+          "default": 0
+        }
+      }
+    }
+  }
+}
