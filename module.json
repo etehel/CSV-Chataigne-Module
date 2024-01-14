@@ -2,6 +2,7 @@
   "name": "CSV-Import",
   "type": "Empty",
   "version": "1.0.0",
+  "path": "Files",
   "description": "CSV-Import",
   "url": "https://github.com/etehel/CSV-Chataigne-Module",
   "downloadURL": "https://github.com/etehel/CSV-Chataigne-Module/archive/master.zip",
